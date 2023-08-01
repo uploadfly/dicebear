@@ -17,7 +17,7 @@ env('ENABLE_VERSION_5_3', '1') && versions.push(import('@dicebear/api-5.3'));
 env('ENABLE_VERSION_6', '1') && versions.push(import('@dicebear/api-6.x'));
 
 const config: Config = {
-  port: parseInt(env('PORT', '3000')),
+  port: parseInt(env('PORT', '9000')),
   address: env('ADDRESS', '0.0.0.0'),
   logger: env('ENABLE_LOGGER', '0') === '1',
   png: {
